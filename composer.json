@@ -1,0 +1,26 @@
+{
+    "name": "guzzleapi/guzzleapilib",
+    "description": "Package for comunication between guzzle and our projects",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^7.8"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "guzzleapi\\guzzleapilib\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ppwebstm",
+            "email": "ppwestm@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "config": {
+        "allow-plugins": {
+            "symfony/thanks": true
+        }
+    }
+}
